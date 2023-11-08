@@ -51,7 +51,7 @@ def alarm():
     enter3.send_keys(u'\ue007').perform()
     time.sleep(2)
     db111 = "show gpon onu state gpon-olt_1/1/1"
-    db11 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db11 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db111 :
         db11.send_keys(char)
         time.sleep(0.50)
@@ -72,7 +72,7 @@ def alarm():
     time.sleep(10)
     driver.implicitly_wait(4)
     db112 = "show gpon onu state gpon-olt_1/1/2"
-    db12 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db12 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db112:
         db12.send_keys(char)
         time.sleep(0.80)
@@ -90,7 +90,7 @@ def alarm():
         print("aman")
     time.sleep(3)
     db113 = "show gpon onu state gpon-olt_1/1/3"
-    db13 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db13 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db113:
         db13.send_keys(char)
         time.sleep(0.50)
@@ -108,7 +108,7 @@ def alarm():
         print("aman")
     time.sleep(5)
     db114 = "show gpon onu state gpon-olt_1/1/4"
-    db14 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db14 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db114:
         db14.send_keys(char)
         time.sleep(0.50)
@@ -126,7 +126,7 @@ def alarm():
         print("aman")
     time.sleep(2)
     db115 = "show gpon onu state gpon-olt_1/1/5"
-    db15 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db15 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db115:
         db15.send_keys(char)
         time.sleep(0.50)
@@ -144,7 +144,7 @@ def alarm():
         print("aman")
     time.sleep(2)
     db116 = "show gpon onu state gpon-olt_1/1/6"
-    db16 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db16 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db116:
         db16.send_keys(char)
         time.sleep(0.50)
@@ -162,7 +162,7 @@ def alarm():
         print("aman")
     time.sleep(2)
     db117 = "show gpon onu state gpon-olt_1/1/7"
-    db17 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db17 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db117:
         db17.send_keys(char)
         time.sleep(0.50)
@@ -180,7 +180,7 @@ def alarm():
         print("aman")
     time.sleep(2)
     db118 = "show gpon onu state gpon-olt_1/1/8"
-    db18 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db18 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db118:
         db18.send_keys(char)
         time.sleep(0.50)
@@ -198,7 +198,7 @@ def alarm():
         print("aman")
     time.sleep(3)
     db119 = "show gpon onu state gpon-olt_1/1/9"
-    db19 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db19 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db119:
         db19.send_keys(char)
         time.sleep(0.50)
@@ -216,7 +216,7 @@ def alarm():
         print("aman")
     time.sleep(3)
     db1110 = "show gpon onu state gpon-olt_1/1/10"
-    db110 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db110 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db1110:
         db110.send_keys(char)
         time.sleep(0.50)
@@ -234,7 +234,7 @@ def alarm():
         print("aman")
     time.sleep(3)
     db221 = "show gpon onu state gpon-olt_1/1/11"
-    db21 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db21 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db221:
         db21.send_keys(char)
         time.sleep(0.50)
@@ -252,7 +252,7 @@ def alarm():
         print("aman")
     time.sleep(3)
     db222 = "show gpon onu state gpon-olt_1/1/12"
-    db22 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db22 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db222:
         db22.send_keys(char)
         time.sleep(0.50)
@@ -270,7 +270,7 @@ def alarm():
         print("aman")
     time.sleep(2)
     db223 = "show gpon onu state gpon-olt_1/1/13"
-    db23 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db23 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db223:
         db23.send_keys(char)
         time.sleep(0.50)
@@ -288,7 +288,7 @@ def alarm():
         print("aman")
     time.sleep(3)
     db223 = "show gpon onu state gpon-olt_1/1/14"
-    db23 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db23 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db223:
         db23.send_keys(char)
         time.sleep(0.50)
@@ -306,7 +306,7 @@ def alarm():
         print("aman")
     time.sleep(3)
     db224 = "show gpon onu state gpon-olt_1/1/15"
-    db24 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db24 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db224:
         db24.send_keys(char)
         time.sleep(0.50)
@@ -324,7 +324,7 @@ def alarm():
         print("aman")
     time.sleep(3)
     db225 = "show gpon onu state gpon-olt_1/1/16"
-    db25 = driver.find_element_by_xpath("//*[contains(.,'Gatep')]")
+    db25 = driver.find_element_by_xpath("//*[contains(.,'Yourgpon')]")
     for char in db225:
         db25.send_keys(char)
         time.sleep(0.50)
