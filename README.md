@@ -1,2 +1,2 @@
-# alarm-check
-+ Check GPON 
+# Check GPON
++ Status FO LOSS or Bending 
