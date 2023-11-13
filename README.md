@@ -1,2 +1,2 @@
 # Check GPON
-+ Status FO LOSS or Bending 
++ Status FO LOSS or Safe
